@@ -22,10 +22,10 @@ import java.util.Date;
  *
  * 汽车出租管理控制器
  */
-
 @RestController
 @RequestMapping("rent")
 public class RentController {
+
     @Autowired
     private RentService rentService;
 
@@ -127,4 +127,6 @@ public class RentController {
             return ResultObj.UPDATE_ERROR;
         }
     }
+
+
 }

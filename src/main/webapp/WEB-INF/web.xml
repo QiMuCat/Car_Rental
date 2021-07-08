@@ -56,7 +56,7 @@
     <!--配置登录名-->
     <init-param>
       <param-name>loginUsername</param-name>
-      <param-value>root</param-value>
+      <param-value>root</param-value>012
     </init-param>
     <!--配置密码-->
     <init-param>
